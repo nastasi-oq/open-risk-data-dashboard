@@ -2,9 +2,9 @@ server {
 	listen 80;
 	listen [::]:80;
 
-	server_name dev.riskopendata.org dev.riskopendata.eu;
+	server_name _;
 
-	root /var/www/html-dev;
+	root /var/www/html;
 	index index.html index.htm;
 
 	access_log  /var/log/nginx/access-dev.log combined;
