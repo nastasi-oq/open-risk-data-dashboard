@@ -56,7 +56,7 @@ server {
     application/rss+xml
 		application/xml;
 
-	error_page 404 error_404.html
+	error_page 404 error_404.html;
 
 	# Security
 	add_header X-XSS-Protection "1; mode=block" always;
